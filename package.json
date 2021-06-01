@@ -1,6 +1,6 @@
 {
     "name": "swapper-stacking-for-dexswap-base",
-    "version": "0.3.0",
+    "version": "0.1.5",
     "description": "swapper-specific contracts suite to bootstrap staking-based reward campaigns (for liquidity mining).",
     "files": [
         "/*.sol",
@@ -26,8 +26,8 @@
     "dependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.2",
         "@openzeppelin/contracts": "^3.2.0",
-        "dexswap-core": "git://github.com/Agin-DropDisco/dexswap-core.git#1.0.0",
-        "dexswap-registry": "git://github.com/Agin-DropDisco/dexswap-registry.git#1.0.0",
+        "dexswap-core": "git://github.com/Agin-DropDisco/dexswap-core.git#0.1.5",
+        "dexswap-registry": "git://github.com/Agin-DropDisco/dexswap-registry.git#0.1.5",
         "erc20-staking-rewards-distribution-contracts": "^0.5.0",
         "hardhat-etherscan-abi": "^0.1.1"
     },
